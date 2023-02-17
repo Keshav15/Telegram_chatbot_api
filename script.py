@@ -3,10 +3,10 @@ import telegram
 from telegram.ext import CommandHandler, MessageHandler, Filters, Updater
 
 # Set up your OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = "Enter Your Key"
 
 # Set up a Telegram bot with your token
-bot = telegram.Bot(token="5669842983:AAFmHhLRpBkvbr2DiIL1fzcqYZf4_1vyx48")
+bot = telegram.Bot(token="telegram token key")
 
 # Define a function to generate a response to user input
 def generate_response(input_text):
